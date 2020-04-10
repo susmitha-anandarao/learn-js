@@ -1,0 +1,41 @@
+{
+  "name": "contest",
+  "version": "1.0.0",
+  "description": "Learning Fullstack JavaScript with React.js, Node.js and MongoDb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susmitha-anandarao/learn-js.git"
+  },
+  "author": "Susmitha Anandarao",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/susmitha-anandarao/learn-js/issues"
+  },
+  "homepage": "https://github.com/susmitha-anandarao/learn-js#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
+    "nodemon": "^2.0.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
